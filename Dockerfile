@@ -35,7 +35,7 @@ COPY static /opt/pdftoolbox/static
 VOLUME ["/opt/pdftoolbox/input"]
 VOLUME ["/opt/pdftoolbox/output"]
 
-EXPOSE 8082
+EXPOSE 80
 
 WORKDIR /opt/pdftoolbox/
 
